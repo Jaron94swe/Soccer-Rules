@@ -59,12 +59,14 @@ img {
     overflow: auto;
 }
 .img.container {
+    display: block;
     float: left;
-    width: 50%;
-    overflow: auto;
+    width: 400px;
+    padding:20px 20px;
 }
-.img.container.2 {
+.img.container2 {
+    display: block;
     float: right;
-    width: 50%;
-    overflow: auto;
+    width: 400px;
+    padding: 20px 20px;
 }
