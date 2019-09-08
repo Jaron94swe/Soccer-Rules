@@ -16,6 +16,7 @@ h1 {
 }
 img {
     float: left;
+    width: 150px;
 }
 p {
     background-color:white;
@@ -60,27 +61,17 @@ text-align: center;
 }
 
 button {
-    color: teal
+    color: teal;
 }
-
-img {
-    height: 150px;
-}
-
-.container {
-    width: 100%;
-    overflow: auto;
-}
-
 .img.container {
-    display: block;
- 
-    width: 400px;
-    padding:20px 20px;
+justify-content: center;
+}
+.img.container > .img {
+    display: flex;
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-width: 10px
 }
 
-.img.container2 {
-    display: block;
-    width: 400px;
-    padding: 20px 20px;
-}
