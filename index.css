@@ -46,7 +46,7 @@ h2 {
 }
 
 footer { 
-    clear: both;
+clear: both;
 font-size: 15px;
 margin-right: auto;
 margin-left: auto; 
@@ -63,15 +63,18 @@ text-align: center;
 button {
     color: teal;
 }
-.img.container {
-justify-content: center;
+.imgContainer {
+flex-flow: wrap;
+flex-direction: row;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
 }
-.img.container > .img {
-    display: flex;
-    align-items: flex-start;
-    width: 200px;
+.imgContainer > .img {
+    width: 33%;
     height: 200px;
     object-fit: cover;
-    border-width: 10px
+    border-width: 10px;
+    margin-right: auto;
 }
-
